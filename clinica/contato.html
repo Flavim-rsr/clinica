@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Pagina Principal</a></li>
+                <li><a href="sobre.html">Sobre a Clinica</a></li>
+                <li><a href="horario.html">Horario de Funcionamento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="img/contato.jpg" width="100%" alt="Descrição da imagem">
+            </div>
+
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <h3>Clínica Saúde & Bem-Estar</h3>
+                <p>Endereço: Rua da Saúde, 123 - Bairro Bem-Estar, Cidade, Estado</p>
+                <p>Telefone: (11) 1234-5678</p>
+                <p>Email: contato@clinicasaude.com.br</p>
+                <p>Horário de Atendimento: Seg-Sex: 08h - 18h | Sáb: 08h - 12h</p>
+                <form action="index.html" method="post" style="display: flex; flex-direction: column;">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="Nome">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="Email">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="Assunto">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="Mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+
+                </form>
+            </div>
+          
+
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <a href="#" aria-label="Facebook" style="margin: 0 10px;">Facebook</a>
+                <a href="#" aria-label="Instagram" style="margin: 0 10px;">Instagram</a>
+                <a href="#" aria-label="Twitter" style="margin: 0 10px;">Twitter</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
